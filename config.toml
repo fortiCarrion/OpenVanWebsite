@@ -1,0 +1,39 @@
+## Basic Configuration
+baseurl = ""
+languageCode = "pt-br"
+
+theme = "hyde-hyde"
+title = "Transporte Escolar"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Jair Carrion"
+    description = "Conheça sobre o projeto"
+    #authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+## Social Accounts
+[params.social]
+    github = "forticarrion"
+    email = "jaircarrion@edu.unifil.br"
+
+## Main Menu
+[[menu.main]]
+    name = "Desenvolvimento"
+    weight = 100
+    identifier = "desenvolvimento"
+    url = "/desenvolvimento/"
+[[menu.main]]
+    name = "Sobre"
+    identifier = "sobre"
+    weight = 200
+    url = "/about/"
